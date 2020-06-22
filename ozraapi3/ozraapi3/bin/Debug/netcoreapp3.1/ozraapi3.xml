@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ozraapi3</name>
+    </assembly>
+    <members>
+        <member name="M:ozraapi3.Controllers.SportnikiController.Get">
+            <summary>
+            Pridobivanje vseh sportnikov iz baze
+            </summary>
+            <returns>vrne prvih 5 sportnikov</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.Get(System.Int32)">
+            <summary>
+            Pridobivanje sportnikov po id
+            </summary>
+            <param name="id"></param>
+            <returns>vrne posemeznuga sportnika glede na vnesen id</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.DodajanjeSportnika(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Doda sportnika v bazo
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.UrejanjeSportnika(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Urejanje sportnika glede na id na nove vrednosti vnesene preko parametra
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.SportnikDelete(System.Int32)">
+            <summary>
+            Izbrise sportnika glede na podan id
+            </summary>
+            <param name="id"></param>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.GetAllAdmin">
+            <summary>
+            Pridobivanje vseh adminov
+            </summary>
+            <returns>Vrne seznam adminov</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.DodajanjeAdmina(System.String,System.String)">
+            <summary>
+            Dodajanje novega admina
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.BrisanjeAdmina(System.Int32)">
+            <summary>
+            Brisanje admina glede na podan id
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.PoosodablanjeAdmina(System.Int32,System.String,System.String)">
+            <summary>
+            Urejevanje Admina glede na podane parametre
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.GetDogodek">
+            <summary>
+            Pridobivanje vseh dogotkov
+            </summary>
+            <returns>Vrne seznam vseh dogodkov</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.GetDogodekPoId(System.Int32)">
+            <summary>
+            Pridobivanje dogodka po id
+            </summary>
+            <returns>Vrne posamezen dogodek</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.DodajDogodek(System.String,System.String)">
+            <summary>
+            Dodajanje dogodka v bazo
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.PoosodobiDogodek(System.Int32,System.String,System.String)">
+            <summary>
+            Urejevanje dogodka po id in glede na parametre
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.DogodekDelete(System.Int32)">
+            <summary>
+            Brisanje dogodka glede na id
+            </summary>
+            <param name="id"></param>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.EvidencaPrijave(System.Int32)">
+            <summary>
+            Pisanje v evidenco glede prijave v sistem
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+        <member name="M:ozraapi3.Controllers.SportnikiController.PrijavaNaDogodek(System.Int32,System.Int32)">
+            <summary>
+            Dodajanje sportnika na dogodek
+            </summary>
+            <returns>Vrne potrdilo o izvedeni akcija/true</returns>
+        </member>
+    </members>
+</doc>
